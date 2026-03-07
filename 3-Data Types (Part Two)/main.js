@@ -1,0 +1,26 @@
+console.log(+100)
+console.log(+"100")
+console.log(+"-100")
+console.log(+"Mohamed")
+console.log(+"15.5")
+console.log(+0xff)
+console.log(+null)
+console.log(+false)
+console.log(+true)
+
+console.log("******************************")
+
+console.log(-100)
+console.log(-"100")
+console.log(-"-100")
+console.log(-"Mohamed") 
+console.log(-"15.5")
+console.log(-0xff)
+console.log(-null)
+console.log(-false)
+console.log(-true)
+
+console.log("******************************")
+
+console.log("" - 2)
+console.log(false - true)

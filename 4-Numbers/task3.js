@@ -1,0 +1,1 @@
+console.log(`${Number.MAX_SAFE_INTEGER}`.length); //9007199254740991(   )=  16

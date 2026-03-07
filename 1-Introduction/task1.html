@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Task1</title>
+    <script>
+      // Code One : Don't Work , Because script code before h1 element ant can't read it.
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // Code Two :This Work
+      window.onload = function () {
+        document.getElementById("el").style.color = "green";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three :This Work
+      document.getElementById("el").style.color = "blue";
+    </script>
+  </body>
+</html>
