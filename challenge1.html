@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function showInf0(a,b,c){
+        if(typeof a === "string"){
+            if(typeof b === "number"){
+                if(c == true){
+                    console.log(`My Name is ${a}, My Age is ${b}, I'm Available For Hire`)
+                }else{
+                    console.log(`My Name is ${a}, My Age is ${b}, I'm Not Available For Hire`)
+                }
+            }else{
+                if(b == true){
+                    console.log(`My Name is ${a}, My Age is ${c}, I'm Available For Hire`)
+                }else{
+                    console.log(`My Name is ${a}, My Age is ${c}, I'm Not Available For Hire`)
+                }
+            }
+        }
+        
+        if(typeof b === "string"){
+            if(typeof a === "number"){
+                if(c == true){
+                    console.log(`My Name is ${b}, My Age is ${a}, I'm Available For Hire`)
+                }else{
+                    console.log(`My Name is ${b}, My Age is ${a}, I'm Not Available For Hire`)
+                }
+            }else{
+                if(a == true){
+                    console.log(`My Name is ${b}, My Age is ${c}, I'm Available For Hire`)
+                }else{
+                    console.log(`My Name is ${b}, My Age is ${c}, I'm Not Available For Hire`)
+                }
+            }
+        }
+
+        if(typeof c === "string"){
+            if(typeof a === "number"){
+                if(b == true){
+                    console.log(`My Name is ${c}, My Age is ${a}, I'm Available For Hire`)
+                }else{
+                    console.log(`My Name is ${c}, My Age is ${a}, I'm Not Available For Hire`)
+                }
+            }else{
+                if(a == true){
+                    console.log(`My Name is ${c}, My Age is ${b}, I'm Available For Hire`)
+                }else{
+                    console.log(`My Name is ${c}, My Age is ${b}, I'm Not Available For Hire`)
+                }
+            }
+        }
+    }
+
+    showInf0(true,20,"Mohamed")
+</script>
+</html>
